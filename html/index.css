@@ -1,0 +1,42 @@
+* {
+	color: rgb(0, 0, 0);
+}
+
+#container {
+	position: absolute;
+	padding: 25px;
+	height: 400px;
+	width: 550px;
+    word-wrap: break-word;
+    top: 75%;
+    left: 75%;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+	text-align: left;
+	border-radius: 7px;
+	overflow:overlay;
+	border: 2px solid rgb(47, 47, 47); 
+	background-image: url(http://api.thumbr.it/whitenoise-361x370.png?background=e6d69c&noise=5c5c5c&density=2&opacity=75)
+}
+
+li {
+	list-style-type: circle;
+}
+  
+::-webkit-scrollbar {
+	width: 11px;
+  }
+  
+  ::-webkit-scrollbar-track {
+	background: none; 
+  }
+  
+  ::-webkit-scrollbar-thumb {
+	border-radius: 7px;
+	background: #ac9c64; 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+	border-radius: 10px;
+	background: #75693b; 
+  }
